@@ -1,0 +1,65 @@
+.main{
+	display:none;
+  border:0.1em solid red;
+  position:absolute;
+  top:15%;
+  left:10%;
+  padding-left:2%;
+  padding-right:2%;
+  line-height:200%;
+  color:white;
+	font-size:150%;
+	width:80%;
+	background-color:rgba(211,211,211,0.2);
+	overflow:auto;
+	height:70%;
+}
+.circleContainer{
+	position:absolute;
+	top:90%;
+	left:45%;
+	width:40%
+}
+.circle{
+	display:block;
+	float:left;
+	margin-left:5%;
+  background-color:white;
+  width:1em;
+	height:1em;
+  border-radius:50%;
+	opacity:0.4;
+}
+.circle:hover{
+	opacity:1;
+}
+#box1{
+	display:block;
+}
+#btn1{
+	opacity:1;
+}
+@media screen and (max-width:1024px){
+  body{
+    font-size:60%;
+  }
+  .main{
+    top:5%;
+		height:28%;
+  }
+	.circleContainer{
+		top:37%;
+	}
+}
+@media screen and (max-width:480px){
+  body{
+    font-size:30%;
+  }
+  .main{
+    top:5%;
+		height:20%;
+  }
+	.circleContainer{
+		top:28%;
+	}
+}
