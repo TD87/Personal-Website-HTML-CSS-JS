@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Me</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/contactstyle.css">
+</head>
+<body>
+	<header class="header">
+		<a href="index.html" class="linkbox">Home</a>
+                <a href="about.html" class="linkbox">About</a>
+                <a href="riddles.html" class="linkbox">Riddles</a>
+                <a href="contact.html" class="linkbox active">Contact Me</a>
+	</header>
+	<div class="container">
+		<a href="https://www.facebook.com"><img src="images/fb.svg" class="social" title="Facebook" alt="facebook"></a>
+		<a href="https://www.twitter.com"><img src="images/twitter.svg" class="social" title="Twitter" alt="Twitter"></a>
+		<a href="https://plus.google.com"><img src="images/google.svg" class="social" title="Google+" alt="Google+"></a>
+		<a href="https://www.skype.com"><img src="images/skype.svg" class="social" title="Skype" alt="Skype"></a>
+		<a href="https://www.reddit.com"><img src="images/reddit.svg" class="social" title="Reddit" alt="Reddit"></a>
+		<a href="https://store.steampowered.com"><img src="images/steam.svg" class="social" title="Steam" alt="Steam"></a>
+	</div>
+  <div class="main">
+    <form id="contactForm" action="mailto:example@gmail.com">
+      <label>Name&emsp;</label>
+      <input type="text" id="fname">
+      <input type="text" id="lname"><br>
+      <label>Email&emsp;</label>
+      <input type="email" id="email"><br>
+      <label>Message&emsp;</label><br>
+      <textarea id="message"></textarea><br>
+      <a href="#" class="linkbox" onclick="submitfn()">Submit</a>
+      <a href="#" class="linkbox" onclick="resetfn()">Reset</a>
+    </form>
+  </div>
+  <script type="text/javascript" src="scripts/contactscript.js"></script>
+</body>
+</html>
