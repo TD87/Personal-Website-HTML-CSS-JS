@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Riddles</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/riddlesstyle.css">
+</head>
+<body>
+	<header class="header">
+		<a href="index.html" class="linkbox">Home</a>
+                <a href="about.html" class="linkbox">About</a>
+                <a href="riddles.html" class="linkbox active">Riddles</a>
+                <a href="contact.html" class="linkbox">Contact Me</a>
+	</header>
+	<article class="main" id="box1">
+    <h2>Question 1</h2>
+    <p>If a green man lives in a green house and a purple man lives in a purple house, then who lives in a White house?</p>
+    <a href="#" class="linkbox btn" onclick="disp2();">A white man</a>
+    <a href="#" class="linkbox btn" onclick="displose();">The President</a>
+    <a href="#" class="linkbox btn" onclick="displose();">Me</a>
+	</article>
+  <article class="main" id="box2">
+    <h2>Question 2</h2>
+    <p>A man has three sons : Red, Blue and _____. Who is the third son?</p>
+    <a href="#" class="linkbox btn" onclick="disp3();">Can't Say</a>
+    <a href="#" class="linkbox btn" onclick="displose();">_____</a>
+    <a href="#" class="linkbox btn" onclick="displose();">Green</a>
+	</article>
+  <article class="main" id="box3">
+    <h2>Question 3</h2>
+    <p>Do you say, "Nine and five is thirteen," or "Nine and five are thirteen" ?</p>
+    <a href="#" class="linkbox btn" onclick="dispwin();">None</a>
+    <a href="#" class="linkbox btn" onclick="displose();">is</a>
+    <a href="#" class="linkbox btn" onclick="displose();">are</a>
+  </article>
+  <article class="main" id="boxlose">
+    <h1>You lose</h2>
+    <a href="#" class="linkbox retry" onclick="disp1();">Retry</a>
+  </article>
+  <article class="main" id="boxwin">
+    <h1>You win</h2>
+    <a href="#" class="linkbox retry" onclick="disp1();">Play Again</a>
+  </article>
+	<script type="text/javascript" src="scripts/riddlesscript.js"></script>
+</body>
+</html>
