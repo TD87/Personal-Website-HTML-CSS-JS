@@ -1,0 +1,89 @@
+.container{
+	position:absolute;
+	top:15%;
+	width:40%;
+	height:85%;
+}
+img.social{
+	display:block;
+	float:left;
+	width:20%;
+	margin:0 10% 15% 15%;
+	opacity:0.6;
+}
+.container :hover{
+	opacity:1;
+}
+.main{
+  border:0.1em solid red;
+  position:absolute;
+  top:15%;
+  left:40%;
+	right:0;
+  padding-left:2%;
+  padding-right:2%;
+  line-height:350%;
+  color:white;
+	font-size:130%;
+	width:50%;
+	height:75%;
+	background-color:rgba(211,211,211,0.2);
+	overflow:auto;
+}
+label{
+	font-size:150%;
+}
+input[type=text], input[type=email]{
+	width: 35%;
+	font-size:100%;
+	padding:1%;
+  border: 0.1em solid white;
+  border-radius:0.2em;
+	background-color:rgba(255,0	,0,0.2);
+	color:white;
+}
+input[type=email]{
+	width:75%;
+}
+textarea{
+	width: 90%;
+	height:10em;
+	font-size:100%;
+	padding:1%;
+	border: 0.1em solid white;
+	border-radius: 0.2em;
+	background-color:rgba(255,0,0,0.2);
+	color:white;
+}
+.main a{
+	position:relative;
+	border:0.1em solid white;
+	font-size:1.5em;
+	line-height:1em;
+	margin-right:1%;
+	left:30%;
+}
+@media screen and (max-width:1024px){
+  body{
+    font-size:60%;
+  }
+  .main{
+    top:5%;
+		height:33%;
+  }
+	.container{
+		top:7%;
+	}
+}
+@media screen and (max-width:480px){
+  body{
+    font-size:30%;
+  }
+  .main{
+    top:5%;
+		height:24%;
+  }
+	.container{
+		top:5%;
+	}
+}
